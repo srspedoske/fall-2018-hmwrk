@@ -1,0 +1,43 @@
+body, html {
+    background-color: #F5EFE3;
+}
+
+.nav {
+    background-color: #F7D3BA;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.nav>li>a {
+    color: black;
+}
+
+.nav>li>a:focus, .nav>li>a:hover {
+    background-color: #F7B994;
+}
+
+
+.jumbotron {
+    background-image: url(../images/paperpad.jpg);
+    background-size: 100% auto;
+    background-position: center;
+    color: black;
+    margin-bottom: 0;
+}
+
+.jumbotron h1, .jumbotron p {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+
+footer {
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 10px;
+}
